@@ -7,6 +7,7 @@ import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
 import { Contact } from './components/sections/Contact'; // Import your About component.
+import { Projects } from "./components/sections//Projects";
 import './index.css';
 
 
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/projects" element={<Projects />} />
                 </Routes>
             </div>
         </Router>
